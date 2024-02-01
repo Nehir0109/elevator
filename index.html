@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>ELEVATOR APP</title>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Inter:wght@500;800&family=Montserrat&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="outside">
+            <div class="number-screen screen-one">
+                <div class="number-screen-inside">0</div>
+            </div>
+
+            <div class="keys">
+                <div class="up"></div>
+                <div class="down"></div>
+            </div>
+        </div>
+        
+
+        <span class="divider"></span>
+        
+
+        <div class="inside">
+            <span class="symbol" id="symbol"></span>
+            <div class="weight-limit">
+                <div class="limit"> The Limit: <br> MAX <br> 250 KG</div>
+                <div id="result" class="kg"></div>
+                
+            </div>
+           
+            <button onclick="getRandomKg(), addPeople()" class="button">ADD PEOPLE</button>
+            
+            <div class="number-screen screen-two">
+                <div id="numberScreenInside" class="number-screen-inside">0</div>
+            </div>
+            <div class="floor-keys">
+                <button onclick="goFloor(9)" class="key nine"> 9 </button>
+                <button onclick="goFloor(8)" class="key eight"> 8 </button>
+                <button onclick="goFloor(7)" class="key seven"> 7 </button>
+                <button onclick="goFloor(6)" class="key six"> 6 </button>
+                <button onclick="goFloor(5)" class="key five"> 5 </button>
+                <button onclick="goFloor(4)" class="key four"> 4 </button>
+                <button onclick="goFloor(3)" class="key three"> 3 </button>
+                <button onclick="goFloor(2)" class="key two"> 2 </button>
+                <button onclick="goFloor(1)" class="key one"> 1 </button>
+                <button onclick="goFloor(0)" class="key zero"> 0 </button>
+            </div>
+
+            <div class="people" id="peopleContainer">
+                
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
