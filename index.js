@@ -4,7 +4,7 @@ const weightIndicator = document.getElementById("symbol");
 const numberScreenInside = document.getElementById("numberScreenInside");
 
 function getRandomKg() {
-  const randomKg = Math.floor(Math.random() * 51) + 50; // 50 ile 100 arasında bir sayı döner
+  const randomKg = Math.floor(Math.random() * 51) + 50; 
   return randomKg;
 }
 
