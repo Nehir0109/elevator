@@ -1,0 +1,320 @@
+* {
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #211C8C;
+}
+.outside {
+    min-height: 100vh;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url("images/outside.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.number-screen{
+    width: 150px;
+    height: 60px;
+    background-color:#a1a0b3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    position: absolute;
+    border-radius: 2px;
+}
+
+.number-screen-inside{
+    font-size: xx-large;
+    background-color: black;
+    width: 130px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.screen-one{
+    left: 200px; /* burada birinci ekran pozisyonlacak */
+    top: 0px;
+}
+.screen-two{
+    left: 280px; /* burada ikinci ekran pozisyonlacak */
+    top: 28px;
+}
+
+
+.floor-numbers{
+    width:fit-content;
+    position: absolute;
+    top: 8px;
+    left: 45px;
+}
+
+.keys {
+    width: 90px;
+    height: 150px;
+    background-color:#a1a0b3;
+    position: absolute;
+    right: 15px;
+    top: 370px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.up{
+    background-image: url("images/circle-up.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    border: 3px outset black;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    left: 17px;
+    cursor: pointer;
+}
+
+
+.down{
+    background-image: url("images/circle-down.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    border: 3px outset black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 17px;
+    cursor: pointer;
+}
+
+
+.divider{
+    width: 100%;
+    height: 100px;
+    background-color: #211C8C;
+    margin: 10px 0;
+    display: block;
+}
+
+.inside {
+    position: relative;
+    min-height: 100vh;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url("images/inside.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.weight-limit { 
+    width: 90px;
+    height: 120px;
+    background-color:#FFF8DC;
+    position: absolute;
+    top: 120px;
+    left: 90px;
+    border: 1px inset black;
+    border-radius: 8px;
+}
+
+.limit {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    width:90px; 
+}
+
+.kg{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: x-large;
+    color:white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 75px;
+    left: 5px;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+}
+
+.symbol{ /*çarpı da böyle olsun istiyorum tik de */
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 999;
+    top: 200px;
+    left: 148px;
+}
+
+.button {
+    background-color:rgb(120, 78, 216);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    position: absolute;
+    top: 190px;
+    left: 280px;
+    width: 150px;
+    height:50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.floor-keys {
+    width: 90px;
+    height: 180px;
+    background-color:#a1a0b3;
+    position: absolute;
+    right: 80px;
+    top: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.zero {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.one {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.two {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.three {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.four {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.five {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.six {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.seven{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.eight {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.nine {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+
+.people{
+    background-color: transparent;
+    width: 700px;
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.person{
+    width: 150px;
+    bottom: 0;
+}
+
