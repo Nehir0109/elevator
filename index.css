@@ -45,8 +45,8 @@ body{
 }
 
 .screen-one{
-    left: 200px; /* burada birinci ekran pozisyonlacak */
-    top: 0px;
+    left: 182px; /* burada birinci ekran pozisyonlacak */
+    top: 17px;
 }
 .screen-two{
     left: 280px; /* burada ikinci ekran pozisyonlacak */
@@ -62,12 +62,12 @@ body{
 }
 
 .keys {
-    width: 90px;
+    width: 83px;
     height: 150px;
     background-color:#a1a0b3;
     position: absolute;
-    right: 15px;
-    top: 370px;
+    right: 0px;
+    top: 400px;
     border: 2px solid black;
     border-radius: 10px;
 }
@@ -130,8 +130,8 @@ body{
     height: 120px;
     background-color:#FFF8DC;
     position: absolute;
-    top: 120px;
-    left: 90px;
+    top: 160px;
+    left: 40px;
     border: 1px inset black;
     border-radius: 8px;
 }
@@ -160,7 +160,7 @@ body{
     text-align: center;
 }
 
-.symbol{ /*çarpı da böyle olsun istiyorum tik de */
+.symbol{
     content: '';
     position: absolute;
     width: 26px;
@@ -168,8 +168,8 @@ body{
     border-radius: 50%;
     background-color: green;
     z-index: 999;
-    top: 200px;
-    left: 148px;
+    top: 235px;
+    left: 100px;
 }
 
 .button {
@@ -193,8 +193,8 @@ body{
     height: 180px;
     background-color:#a1a0b3;
     position: absolute;
-    right: 80px;
-    top: 200px;
+    right: 35px;
+    top: 300px;
     border: 2px solid black;
     border-radius: 10px;
     display: flex;
