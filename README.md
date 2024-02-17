@@ -29,5 +29,5 @@ To experience the Elevator App, visit https://elevator-application.netlify.app/ 
 
 **Conclusion**
 
-The Elevator App provides a simple yet interactive demonstration of elevator functionalities. Experience it directly at https://elevator-application.netlify.app/. Feel free to explore, customize, and integrate this app into your projects. For any questions or improvements, don't hesitate to reach out!
+The Elevator App provides a simple yet interactive demonstration of elevator functionalities. Experience it directly at https://elevator-application.netlify.app/. Feel free to explore, customize, and for any questions or improvements, don't hesitate to reach out!
 
